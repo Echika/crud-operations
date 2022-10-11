@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+
+.container {
+    display: flex;
+    gap: 35px;
+}
+
+#posts {
+    width: 250px;
+}
+
+#posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    cursor: pointer;
+    display: flex;
+    gap: 25px
+}
+
+#msg {
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+
+    #posts div {
+        display: block;
+    }
+}
+
+
